@@ -1,0 +1,58 @@
+.appointment {
+  background: -webkit-linear-gradient(45deg, #3d48b1, rgba(10, 222, 190, 1));
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 200px;
+  padding: 2em 2em 3em 2em;
+  color: white;
+  position: relative;
+  width: 175px;
+}
+
+.appointment-header {
+  font-size: 4em;
+  font-weight: normal;
+  color: white;
+  line-height: 1em;
+  margin-left: -4px;
+}
+
+.appointment-description {
+  margin-top: 1em;
+}
+
+.appointment-time-place {
+  bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  position: absolute;
+}
+
+.appointment-actions {
+  align-items: center;
+  border-radius: 0px;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  height: 2em;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.appointment-actions button {
+  background-color: transparent;
+  border-radius: 0;
+  border-top: 1px solid white;
+  color: white;
+  height: 100%;
+  padding: 0;
+  width: 50%;
+}
+.appointment-actions button:hover {
+  border-top: 1px solid white;
+}
+.appointment-actions button:not(:first-of-type) {
+  border-left: 1px solid white;
+}

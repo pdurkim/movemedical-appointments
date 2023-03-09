@@ -1,0 +1,20 @@
+.appointments-header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.appointment-list {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.upcoming-appointments {
+  width: 500px;
+}
+
+.create-appointment {
+  float: right;
+}

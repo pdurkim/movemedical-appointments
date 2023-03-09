@@ -1,0 +1,30 @@
+.appointment-form {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.appointment-form .field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.appointment-form .input {
+  border: 1px solid #3d48b1;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.6em 1.2em;
+}
+
+.error-message {
+  margin-bottom: 1em;
+  color: #ff0033;
+}
+
+.optional-field {
+  font-size: 0.75em;
+  font-style: italic;
+}

@@ -1,0 +1,10 @@
+#root {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.card {
+  padding: 2em;
+}
