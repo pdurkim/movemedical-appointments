@@ -20,8 +20,8 @@ const Appointment = ({ appointment }) => {
     hour12: true,
   });
   let description = appointment.description;
-  if (description.length > 30) {
-    description = description.substring(0, 30).concat(" ...");
+  if (description.length > 35) {
+    description = description.substring(0, 35).concat(" ...");
   }
 
   const handleAppointmentDelete = () => {
