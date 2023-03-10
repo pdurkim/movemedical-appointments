@@ -4,7 +4,7 @@ import useAppointmentsContext from "../hooks/useAppointmentsContext";
 import "./AppointmentCreate.css";
 
 const AppointmentCreate = ({ onSubmit }) => {
-  const { currentAppointment, createAppointment } = useAppointmentsContext();
+  const { createAppointment } = useAppointmentsContext();
 
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
@@ -64,7 +64,7 @@ const AppointmentCreate = ({ onSubmit }) => {
             name="date"
             type="date"
             onChange={handleDateChange}
-            value={currentAppointment?.date || date}
+            value={date}
           />
         </div>
         <div className="field">
@@ -74,13 +74,13 @@ const AppointmentCreate = ({ onSubmit }) => {
             name="time"
             type="time"
             onChange={handleTimeChange}
-            value={currentAppointment?.time || time}
+            value={time}
           />
         </div>
         <div className="field">
           <Dropdown
             options={locationOptions}
-            value={currentAppointment?.location || location}
+            value={location}
             onChange={handleLocationChange}
           />
         </div>
@@ -93,7 +93,7 @@ const AppointmentCreate = ({ onSubmit }) => {
             name="description"
             type="text"
             onChange={handleDescriptionChange}
-            value={currentAppointment?.description || description}
+            value={description}
             rows="5"
           />
         </div>
