@@ -12,7 +12,8 @@
 
 1. Written in React with no external libraries
 2. Context API for global state management
-3. ComponentsAppointmentList
+3. Components
+   * AppointmentList
    * AppointmentShow
    * AppointmentCreate
    * AppointmentEdit
