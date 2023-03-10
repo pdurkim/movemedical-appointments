@@ -2,6 +2,7 @@
   align-items: center;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -12,9 +13,9 @@
 }
 
 .upcoming-appointments {
-  width: 500px;
+  margin-top: 2em;
 }
 
 .create-appointment {
-  float: right;
+  margin-left: auto;
 }

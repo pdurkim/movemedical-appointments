@@ -54,6 +54,9 @@
 .appointment-actions button:hover {
   border-top: 1px solid white;
 }
+.appointment-actions button:focus {
+  outline: none;
+}
 .appointment-actions button:not(:first-of-type) {
   border-left: 1px solid white;
 }

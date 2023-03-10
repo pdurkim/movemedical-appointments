@@ -35,6 +35,7 @@ const Appointment = ({ appointment }) => {
   };
 
   const handleClose = () => {
+    setShowActions(false);
     setShowModal(false);
   };
 
